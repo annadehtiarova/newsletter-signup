@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(assets/fonts/Roboto-Regular.ttf), url(assets/fonts/Roboto-Bold.ttf);
+}
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #36384D;
+}
+
+.container {
+    width: 888px;
+    height: 593px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding: 24px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 36px;
+   
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    width: 376px;
+    padding-left: 40px;
+    
+}
+
+h2{
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.input-email{
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+form label {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input{
+    width: 346px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid rgba(25, 24, 43, 0.25);
+    font-size: 16px;
+    color: #242742;;
+    padding-left: 24px;
+}
+
+input::placeholder {
+    color: rgba(36, 39, 66, 0.5);
+   
+}
+
+.error-message{
+    display: none;
+    color: #FF6155;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input:hover{
+    border: 1px solid #242742;
+}
+input:focus{
+    border: 1px solid #242742;
+    outline: none;
+}
+
+input.error{
+    border: 1px solid #FF6155;
+    background-color: rgba(255, 97, 85, 0.15);
+    color: #FF6155;
+}
+
+.error-message {
+    display: none;
+    position: relative;
+    left: 250px;
+    top: -90px;
+}
+
+button{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #242742;
+    border-radius: 8px;
+    width: 376px;
+    height: 56px;
+}
+
+button:hover{
+    background: linear-gradient(to bottom, #FF6A3A 0%, #FF527B 100%) ;
+    box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.5);
+}
