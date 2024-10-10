@@ -47,6 +47,8 @@ document.addEventListener('DOMContentLoaded', function() {
         dismissBtn.addEventListener('click', function(event){
         mainContainer.style.display = 'flex';
         successContainer.style.display = 'none';
+        clearBtn.style.display = 'none';
+        emailInput.value = '';
     })
 
 
