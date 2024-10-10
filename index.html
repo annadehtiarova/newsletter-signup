@@ -8,7 +8,7 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div id='container' class="container">
         <div class="left-content">
             <h2>Stay updated!</h2>
             <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -39,7 +39,15 @@
             </form>
         </div>
         <img src="assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop">
-    </div>  
-
+    </div> 
+    
+    <div id='success-container' class="success-container">
+        <img src="assets/images/icon-success.svg" alt="icon-success">
+        <div class="content">
+        <h2>Thanks for subscribing!</h2>
+        <p>A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. Please open it and click the button inside to confirm your subscription.</p>
+        </div>
+        <button id='dismissBtn' type="submit">Dismiss message</button>
+    </div>
 </body>
 </html>

@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const errorMessage = document.querySelector('.error-message');
         const clearBtn = document.getElementById('clearBtn');
         const submitBtn = document.getElementById('submitBtn');
+        const mainContainer = document.getElementById('container');
+        const successContainer = document.getElementById('success-container');
 
         function isValidEmail(email) {
             // Regular expression to check for '@' and '.' in the email
@@ -13,12 +15,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Listener for the submit button
         submitBtn.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent form submission
         // Check if email is correct or input exists, if not provide an error
         if (!isValidEmail(emailInput.value) || !emailInput.value) {
             event.preventDefault(); // Prevent form submission
             emailInput.classList.add('error'); // Add error class
             errorMessage.style.display = 'block'; // Show error message
-        } 
+        } else {
+            mainContainer.style.display = 'none';
+            successContainer.style.display = 'flex';
+
+        }
         
         // Listener for input event to reset error state
         emailInput.addEventListener('input', function() {
@@ -35,6 +42,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
     });
+
+        // Listener for dismiss button
+        dismissBtn.addEventListener('click', function(event){
+        mainContainer.style.display = 'flex';
+        successContainer.style.display = 'none';
+    })
 
 
         // Listener
