@@ -34,7 +34,8 @@ body {
     justify-content: center;
     width: 376px;
     padding-left: 40px;
-    position:relative;   
+    position:relative; 
+    
 }
 
 .image-container {
@@ -51,12 +52,14 @@ h2{
     font-weight: bold;
     line-height: 1;
     margin: 0;
+    color: #242742; 
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
+    color: #242742; 
 }
 
 .list-item{
@@ -88,6 +91,7 @@ form label {
     font-family: 'Roboto';
     font-size: 12px;
     font-weight: bold;
+    color: #242742; 
 }
 
 input{
