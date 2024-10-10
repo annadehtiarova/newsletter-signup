@@ -14,13 +14,13 @@ This is [my solution](https://annadehtiarova.github.io/newsletter-signup/) to th
 My challenge was to build out the Single price grid component and get it looking as close to the design as possible.
 <br>
 <br>
-<img width="1706" alt="Screenshot 2024-10-10 at 09 18 34" src="https://github.com/user-attachments/assets/3adb734c-f84e-4b78-a1eb-5fc3a07a4bb5">
-<img width="1703" alt="Screenshot 2024-10-10 at 09 19 11" src="https://github.com/user-attachments/assets/e1011ba0-4608-4d2f-97ab-9ed61c070fb7">
-<img width="1705" alt="Screenshot 2024-10-10 at 09 19 40" src="https://github.com/user-attachments/assets/59b9e521-af21-40fa-9ad8-4ffaf735a4f2">
+<img width="1703" alt="Screenshot 2024-10-10 at 15 15 48" src="https://github.com/user-attachments/assets/0aca1314-16dc-4183-9a8e-42ca7a2d05dc">
+<img width="1696" alt="Screenshot 2024-10-10 at 15 16 12" src="https://github.com/user-attachments/assets/bd2580f0-c718-4c9d-a9c9-7c84b4fadd89">
+<img width="1699" alt="Screenshot 2024-10-10 at 15 16 39" src="https://github.com/user-attachments/assets/53cf7584-b724-456f-9aef-a24f4e18bdb3">
 <br>
 <br>
-<img width="1706" alt="Screenshot 2024-10-10 at 14 04 03" src="https://github.com/user-attachments/assets/bf2e9694-8e27-4a6a-a920-ba9567129ee4">
-<img width="1702" alt="Screenshot 2024-10-10 at 14 24 35" src="https://github.com/user-attachments/assets/977b751c-f40d-4ed9-b08e-9f57aa6dbed6">
+<img width="1699" alt="Screenshot 2024-10-10 at 15 18 02" src="https://github.com/user-attachments/assets/df77bb8b-532d-416e-98ac-1300da683f61">
+<img width="1704" alt="Screenshot 2024-10-10 at 15 18 23" src="https://github.com/user-attachments/assets/4cf76b3e-d308-4bff-ba97-c8b5c8f8c28c">
 <br>
 <br>
 I was provided with a Figma file.
