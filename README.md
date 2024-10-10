@@ -16,13 +16,12 @@ My challenge was to build out the Single price grid component and get it looking
 <br>
 <img width="1706" alt="Screenshot 2024-10-10 at 09 18 34" src="https://github.com/user-attachments/assets/3adb734c-f84e-4b78-a1eb-5fc3a07a4bb5">
 <img width="1703" alt="Screenshot 2024-10-10 at 09 19 11" src="https://github.com/user-attachments/assets/e1011ba0-4608-4d2f-97ab-9ed61c070fb7">
+<img width="1705" alt="Screenshot 2024-10-10 at 09 19 40" src="https://github.com/user-attachments/assets/59b9e521-af21-40fa-9ad8-4ffaf735a4f2">
 <br>
 <br>
 <img width="1706" alt="Screenshot 2024-10-10 at 14 04 03" src="https://github.com/user-attachments/assets/bf2e9694-8e27-4a6a-a920-ba9567129ee4">
 <img width="1699" alt="Screenshot 2024-10-10 at 14 04 27" src="https://github.com/user-attachments/assets/d2254220-e0b0-4596-89a2-c765dc57b824">
-<br>
-<br>
-<img width="1705" alt="Screenshot 2024-10-10 at 09 19 40" src="https://github.com/user-attachments/assets/59b9e521-af21-40fa-9ad8-4ffaf735a4f2">
+
 <br>
 <br>
 I was provided with a Figma file.
