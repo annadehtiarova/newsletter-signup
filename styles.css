@@ -65,7 +65,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-top: 40px;
+    margin-top: 24px;
 }
 
 .input-email{
