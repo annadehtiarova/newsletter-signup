@@ -157,7 +157,7 @@ input:-webkit-autofill:active {
 #clearBtn {
     display: none;
     position: absolute;
-    top: 410px;
+    top: 400px;
     left: 370px;
     color: rgba(36, 39, 66, 0.5);
     border: none;
@@ -204,6 +204,7 @@ input:-webkit-autofill:active {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    color: #242742; 
 }
 
 @media (max-width: 375px) {
