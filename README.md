@@ -20,8 +20,7 @@ My challenge was to build out the Single price grid component and get it looking
 <br>
 <br>
 <img width="1706" alt="Screenshot 2024-10-10 at 14 04 03" src="https://github.com/user-attachments/assets/bf2e9694-8e27-4a6a-a920-ba9567129ee4">
-<img width="1699" alt="Screenshot 2024-10-10 at 14 04 27" src="https://github.com/user-attachments/assets/d2254220-e0b0-4596-89a2-c765dc57b824">
-
+<img width="1702" alt="Screenshot 2024-10-10 at 14 24 35" src="https://github.com/user-attachments/assets/977b751c-f40d-4ed9-b08e-9f57aa6dbed6">
 <br>
 <br>
 I was provided with a Figma file.
