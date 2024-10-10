@@ -28,6 +28,7 @@ I was provided with a Figma file.
 <br>
 <br>
 <img width="1051" alt="Screenshot 2024-10-10 at 09 20 40" src="https://github.com/user-attachments/assets/4f5a33d5-e502-438e-86c7-4a70490e3c27">
+<img width="984" alt="Screenshot 2024-10-10 at 14 06 41" src="https://github.com/user-attachments/assets/d21e2e06-c2cb-4d45-a97e-36709c0d9fea">
 <br>
 <br>
 
