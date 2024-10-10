@@ -8,23 +8,22 @@ document.addEventListener('DOMContentLoaded', function() {
         const successContainer = document.getElementById('success-container');
 
         function isValidEmail(email) {
-            // Regular expression to check for '@' and '.' in the email
+        // Regular expression to check for '@' and '.' in the email
                 const regex = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
                 return regex.test(email);
             }
 
         // Listener for the submit button
         submitBtn.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent form submission
-        // Check if email is correct or input exists, if not provide an error
+        event.preventDefault();
+        // Check if email is correct or input exists, if not show an error
         if (!isValidEmail(emailInput.value) || !emailInput.value) {
-            event.preventDefault(); // Prevent form submission
-            emailInput.classList.add('error'); // Add error class
-            errorMessage.style.display = 'block'; // Show error message
+            event.preventDefault(); 
+            emailInput.classList.add('error'); 
+            errorMessage.style.display = 'block'; 
         } else {
             mainContainer.style.display = 'none';
             successContainer.style.display = 'flex';
-
         }
         
         // Listener for input event to reset error state
@@ -32,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // Remove error state when user starts typing
         emailInput.classList.remove('error');
         errorMessage.style.display = 'none';
-        
         // Show the clear button when the user types something
         if (emailInput.value.length > 0) {
             clearBtn.style.display = 'block';
@@ -43,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     });
 
-        // Listener for dismiss button
+        // Listener for dismiss button to show the signup newsletter form again
         dismissBtn.addEventListener('click', function(event){
         mainContainer.style.display = 'flex';
         successContainer.style.display = 'none';
@@ -52,9 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 
 
-        // Listener
+        // Listener for input event to show clear button
         emailInput.addEventListener('input', function() {
-        
         // Show the clear button when the user types something
         if (emailInput.value.length > 0) {
             clearBtn.style.display = 'block';
@@ -64,11 +61,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
 
-        // Listener for the claer button
+        // Listener for the clear button to clear the input field
         clearBtn.addEventListener('click', function() {
-        emailInput.value = ''; // Clear the input field
-        emailInput.classList.remove('error'); // Remove the error state if present
-        errorMessage.style.display = 'none'; // Hide the error message
-        clearBtn.style.display = 'none'; // Hide the clear button again
+        emailInput.value = ''; 
+        emailInput.classList.remove('error'); 
+        errorMessage.style.display = 'none'; 
+        clearBtn.style.display = 'none'; 
         });
 });
