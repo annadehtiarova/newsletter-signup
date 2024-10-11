@@ -35,6 +35,7 @@ I was provided with a Figma file.
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Javascript
 
 ### Links
 - Solution URL: [newsletter-signup](https://annadehtiarova.github.io/newsletter-signup/)
