@@ -115,6 +115,9 @@ input::placeholder {
     color: #FF6155;
     font-weight: bold;
     font-size: 12px;
+    display: none;
+    position: absolute;
+    left: 300px;
 }
 
 input:hover{
@@ -147,11 +150,7 @@ input:-webkit-autofill:active {
 }
 
 
-.error-message {
-    display: none;
-    position: absolute;
-    left: 300px;
-}
+
 
 
 #clearBtn {
